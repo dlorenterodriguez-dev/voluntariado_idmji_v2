@@ -1,0 +1,4 @@
+enum PlanningScope {
+  weekly,
+  monthly,
+}
