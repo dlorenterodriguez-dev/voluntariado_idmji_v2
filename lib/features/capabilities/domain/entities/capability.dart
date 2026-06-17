@@ -5,17 +5,21 @@ class Capability {
     required this.id,
     required this.name,
     required this.icon,
+    required this.isActive,
   });
 
-  /// Identificador permanente y único.
+  /// Identificador permanente e inmutable (UUID).
   final String id;
 
   /// Nombre visible de la capacidad.
   final String name;
 
   /// Icono asociado a la capacidad.
-  ///
-  /// Se representa mediante un enum del dominio para mantener
-  /// la independencia respecto a Flutter.
   final CapabilityIcon icon;
+
+  /// Indica si la capacidad está activa.
+  ///
+  /// Las capacidades inactivas conservan su historial y
+  /// pueden seguir siendo referenciadas por datos antiguos.
+  final bool isActive;
 }
