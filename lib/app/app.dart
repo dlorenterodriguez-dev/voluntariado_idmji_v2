@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../core/routing/app_router.dart';
+
 class VolunteerApp extends StatelessWidget {
   const VolunteerApp({super.key});
 
@@ -8,11 +10,8 @@ class VolunteerApp extends StatelessWidget {
     return MaterialApp(
       title: 'Voluntariado IDMJI',
       debugShowCheckedModeBanner: false,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Voluntariado IDMJI'),
-        ),
-      ),
+      onGenerateRoute: AppRouter.onGenerateRoute,
+      initialRoute: '/',
     );
   }
 }
