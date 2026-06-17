@@ -1,0 +1,245 @@
+Listado de rutas de carpetas
+El número de serie del volumen es 00000055 462A:4505
+C:.
+|   .gitignore
+|   .metadata
+|   analysis_options.yaml
+|   estructura_proyecto.txt
+|   pubspec.lock
+|   pubspec.yaml
+|   README.md
+|   voluntariado_idmji.iml
+|   
++---.dart_tool
+|       package_config.json
+|       package_graph.json
+|       version
+|       
++---.idea
+|   |   .gitignore
+|   |   markdown.xml
+|   |   misc.xml
+|   |   modules.xml
+|   |   vcs.xml
+|   |   workspace.xml
+|   |   
+|   +---caches
+|   |       deviceStreaming.xml
+|   |       
+|   +---libraries
+|   |       Dart_Packages.xml
+|   |       Dart_SDK.xml
+|   |       Flutter_Plugins.xml
+|   |       KotlinJavaRuntime.xml
+|   |       
+|   \---runConfigurations
+|           main_dart.xml
+|           
++---android
+|   |   .gitignore
+|   |   build.gradle.kts
+|   |   gradle.properties
+|   |   gradlew
+|   |   gradlew.bat
+|   |   local.properties
+|   |   settings.gradle.kts
+|   |   voluntariado_idmji_android.iml
+|   |   
+|   +---app
+|   |   |   build.gradle.kts
+|   |   |   
+|   |   \---src
+|   |       +---debug
+|   |       |       AndroidManifest.xml
+|   |       |       
+|   |       +---main
+|   |       |   |   AndroidManifest.xml
+|   |       |   |   
+|   |       |   +---java
+|   |       |   |   \---io
+|   |       |   |       \---flutter
+|   |       |   |           \---plugins
+|   |       |   |                   GeneratedPluginRegistrant.java
+|   |       |   |                   
+|   |       |   +---kotlin
+|   |       |   |   \---org
+|   |       |   |       \---idmji
+|   |       |   |           \---voluntariado_idmji
+|   |       |   |                   MainActivity.kt
+|   |       |   |                   
+|   |       |   \---res
+|   |       |       +---drawable
+|   |       |       |       launch_background.xml
+|   |       |       |       
+|   |       |       +---drawable-v21
+|   |       |       |       launch_background.xml
+|   |       |       |       
+|   |       |       +---mipmap-hdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-mdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---values
+|   |       |       |       styles.xml
+|   |       |       |       
+|   |       |       \---values-night
+|   |       |               styles.xml
+|   |       |               
+|   |       \---profile
+|   |               AndroidManifest.xml
+|   |               
+|   \---gradle
+|       \---wrapper
+|               gradle-wrapper.jar
+|               gradle-wrapper.properties
+|               
++---build
+|   |   54548de9dee5732507e868e26b1d09d4.cache.dill.track.dill
+|   |   last_build_run.json
+|   |   
+|   +---b7e8a2072bb86fc34674f2341f3d5c2b
+|   |       gen_dart_plugin_registrant.stamp
+|   |       gen_localizations.stamp
+|   |       _composite.stamp
+|   |       
+|   \---flutter_assets
+|       |   AssetManifest.bin
+|       |   AssetManifest.bin.json
+|       |   FontManifest.json
+|       |   NOTICES
+|       |   
+|       +---fonts
+|       |       MaterialIcons-Regular.otf
+|       |       
+|       +---packages
+|       |   \---cupertino_icons
+|       |       \---assets
+|       |               CupertinoIcons.ttf
+|       |               
+|       \---shaders
+|               ink_sparkle.frag
+|               stretch_effect.frag
+|               
++---lib
+|   |   main.dart
+|   |   
+|   +---app
+|   |       app.dart
+|   |       
+|   +---core
+|   |   +---error
+|   |   +---routing
+|   |   |       app_router.dart
+|   |   |       
+|   |   +---shared
+|   |   |   \---identifiers
+|   |   |           assignment_id.dart
+|   |   |           capability_id.dart
+|   |   |           event_id.dart
+|   |   |           event_template_id.dart
+|   |   |           position_id.dart
+|   |   |           recurring_event_id.dart
+|   |   |           team_id.dart
+|   |   |           volunteer_id.dart
+|   |   |           
+|   |   +---theme
+|   |   \---utils
+|   +---features
+|   |   +---assignments
+|   |   |   \---domain
+|   |   |       +---entities
+|   |   |       |       assignment.dart
+|   |   |       |       
+|   |   |       \---repositories
+|   |   |               assignment_repository.dart
+|   |   |               
+|   |   +---capabilities
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   |   +---entities
+|   |   |   |   |       capability.dart
+|   |   |   |   |       capability_icon.dart
+|   |   |   |   |       
+|   |   |   |   +---repositories
+|   |   |   |   |       capability_repository.dart
+|   |   |   |   |       
+|   |   |   |   \---use_cases
+|   |   |   \---presentation
+|   |   +---events
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   |   +---entities
+|   |   |   |   |       event.dart
+|   |   |   |   |       event_template.dart
+|   |   |   |   |       recurring_event.dart
+|   |   |   |   |       required_position.dart
+|   |   |   |   |       service_type.dart
+|   |   |   |   |       
+|   |   |   |   \---repositories
+|   |   |   |           event_repository.dart
+|   |   |   |           event_template_repository.dart
+|   |   |   |           recurring_event_repository.dart
+|   |   |   |           
+|   |   |   \---presentation
+|   |   +---exports
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   \---presentation
+|   |   +---home
+|   |   |   \---presentation
+|   |   |       \---pages
+|   |   |               home_page.dart
+|   |   |               
+|   |   +---planning
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   \---presentation
+|   |   +---positions
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   |   +---entities
+|   |   |   |   |       position.dart
+|   |   |   |   |       
+|   |   |   |   \---repositories
+|   |   |   |           position_repository.dart
+|   |   |   |           
+|   |   |   \---presentation
+|   |   +---settings
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   \---presentation
+|   |   +---teams
+|   |   |   +---data
+|   |   |   +---domain
+|   |   |   |   +---entities
+|   |   |   |   |       planning_scope.dart
+|   |   |   |   |       team.dart
+|   |   |   |   |       
+|   |   |   |   \---repositories
+|   |   |   |           team_repository.dart
+|   |   |   |           
+|   |   |   \---presentation
+|   |   \---volunteers
+|   |       +---data
+|   |       +---domain
+|   |       |   +---entities
+|   |       |   |       volunteer.dart
+|   |       |   |       
+|   |       |   \---repositories
+|   |       |           volunteer_repository.dart
+|   |       |           
+|   |       \---presentation
+|   \---shared
+\---test
+        widget_test.dart
+        
